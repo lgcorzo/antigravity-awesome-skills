@@ -1,6 +1,6 @@
 # Skill Catalog
 
-Generated at: 2026-02-06T08:53:44.091Z
+Generated at: 2026-02-08T00:00:00.000Z
 
 Total skills: 713
 
@@ -338,7 +338,7 @@ TRIGGER: "shopify", "shopify app", "checkout extension",... | shopify | shopify,
 | `claude-scientific-skills` | Scientific research and analysis skills | claude, scientific, skills | claude, scientific, skills, research, analysis |
 | `claude-speed-reader` | -Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting | claude, speed, reader | claude, speed, reader, read, responses, 600, wpm, rsvp, spritz, style, orp, highlighting |
 | `claude-win11-speckit-update-skill` | Windows 11 system management | claude, win11, speckit, update, skill | claude, win11, speckit, update, skill, windows, 11 |
-| `clean-code` | Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments | clean, code | clean, code, pragmatic, coding, standards, concise, direct, no, engineering, unnecessary, comments |
+| `clean-code` | Applies principles from Robert C. Martin's 'Clean Code'. Use this skill when writing, reviewing, or refactoring code to ensure high quality, readability, and... | clean, code | clean, code, applies, principles, robert, martin, skill, writing, reviewing, refactoring, high, quality |
 | `code-documentation-code-explain` | You are a code education expert specializing in explaining complex code through clear narratives, visual diagrams, and step-by-step breakdowns. Transform dif... | code, documentation, explain | code, documentation, explain, education, specializing, explaining, complex, through, clear, narratives, visual, diagrams |
 | `code-refactoring-context-restore` | Use when working with code refactoring context restore | code, refactoring, restore | code, refactoring, restore, context, working |
 | `code-refactoring-tech-debt` | You are a technical debt expert specializing in identifying, quantifying, and prioritizing technical debt in software projects. Analyze the codebase to uncov... | code, refactoring, tech, debt | code, refactoring, tech, debt, technical, specializing, identifying, quantifying, prioritizing, software, analyze, codebase |

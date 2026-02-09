@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.11.0] - 2026-02-08 - "Clean Code & Registry Stability"
+
+> Quality improvements: Clean Code principles and deterministic builds.
+
+### Changed
+
+- **`clean-code` skill** - Complete rewrite based on Robert C. Martin's "Clean Code":
+  - Systematic coverage: Meaningful names, functions, comments, formatting, objects, error handling, unit tests, and classes
+  - Added F.I.R.S.T. test principles and Law of Demeter guidance
+  - Fixed invalid heading format (`## ## When to Use` → `## When to Use`) that blocked validation
+  - Added implementation checklist and code smell detection
+- **Registry Stabilization** - Fixed `scripts/build-catalog.js` for deterministic CI builds:
+  - Uses `SOURCE_DATE_EPOCH` environment variable for reproducible timestamps
+  - Replaced `localeCompare` with explicit comparator for consistent sorting across environments
+  - Prevents CI validation failures caused by timestamp drift
+
+### Contributors
+
+- [@jackjin1997](https://github.com/jackjin1997) - Clean Code skill update and registry fixes (PR #69, forged at [ClawForge](https://github.com/jackjin1997/ClawForge))
+
+---
+
 ## [4.10.0] - 2026-02-06 - "Composio Automation + .NET Backend"
 
 > A major expansion focused on practical app automation and stronger backend engineering coverage.

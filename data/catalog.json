@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-06T08:53:44.091Z",
+  "generatedAt": "2026-02-08T00:00:00.000Z",
   "total": 713,
   "skills": [
     {
@@ -2969,7 +2969,7 @@
     {
       "id": "clean-code",
       "name": "clean-code",
-      "description": "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+      "description": "Applies principles from Robert C. Martin's 'Clean Code'. Use this skill when writing, reviewing, or refactoring code to ensure high quality, readability, and maintainability. Covers naming, functions, comments, error handling, and class design.",
       "category": "general",
       "tags": [
         "clean",
@@ -2978,15 +2978,16 @@
       "triggers": [
         "clean",
         "code",
-        "pragmatic",
-        "coding",
-        "standards",
-        "concise",
-        "direct",
-        "no",
-        "engineering",
-        "unnecessary",
-        "comments"
+        "applies",
+        "principles",
+        "robert",
+        "martin",
+        "skill",
+        "writing",
+        "reviewing",
+        "refactoring",
+        "high",
+        "quality"
       ],
       "path": "skills/clean-code/SKILL.md"
     },
