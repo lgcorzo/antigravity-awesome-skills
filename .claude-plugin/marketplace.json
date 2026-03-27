@@ -5,14 +5,14 @@
     "url": "https://github.com/sickn33/antigravity-awesome-skills"
   },
   "metadata": {
-    "description": "Claude Code marketplace entries for the full Antigravity Awesome Skills library and its editorial bundles.",
+    "description": "Claude Code marketplace entries for the plugin-safe Antigravity Awesome Skills library and its compatible editorial bundles.",
     "version": "8.10.0"
   },
   "plugins": [
     {
       "name": "antigravity-awesome-skills",
       "version": "8.10.0",
-      "description": "Expose the full repository `skills/` tree to Claude Code through a single marketplace entry.",
+      "description": "Expose the plugin-safe Claude Code subset of Antigravity Awesome Skills through a single marketplace entry.",
       "author": {
         "name": "sickn33 and contributors",
         "url": "https://github.com/sickn33/antigravity-awesome-skills"
@@ -27,7 +27,7 @@
         "plugin",
         "marketplace"
       ],
-      "source": "./"
+      "source": "./plugins/antigravity-awesome-skills-claude"
     },
     {
       "name": "antigravity-bundle-essentials",
@@ -748,26 +748,6 @@
         "marketplace"
       ],
       "source": "./plugins/antigravity-bundle-oss-maintainer"
-    },
-    {
-      "name": "antigravity-bundle-skill-author",
-      "version": "8.10.0",
-      "description": "Install the \"Skill Author\" editorial skill bundle for Claude Code.",
-      "author": {
-        "name": "sickn33 and contributors",
-        "url": "https://github.com/sickn33/antigravity-awesome-skills"
-      },
-      "homepage": "https://github.com/sickn33/antigravity-awesome-skills",
-      "repository": "https://github.com/sickn33/antigravity-awesome-skills",
-      "license": "MIT",
-      "keywords": [
-        "claude-code",
-        "skills",
-        "bundle",
-        "skill-author",
-        "marketplace"
-      ],
-      "source": "./plugins/antigravity-bundle-skill-author"
     }
   ]
 }

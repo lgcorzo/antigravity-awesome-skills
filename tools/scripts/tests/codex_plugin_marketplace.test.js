@@ -6,8 +6,11 @@ const { findProjectRoot } = require("../../lib/project-root");
 const projectRoot = findProjectRoot(__dirname);
 const marketplacePath = path.join(projectRoot, ".agents", "plugins", "marketplace.json");
 const editorialBundlesPath = path.join(projectRoot, "data", "editorial-bundles.json");
+const compatibilityPath = path.join(projectRoot, "data", "plugin-compatibility.json");
 const marketplace = JSON.parse(fs.readFileSync(marketplacePath, "utf8"));
 const editorialBundles = JSON.parse(fs.readFileSync(editorialBundlesPath, "utf8")).bundles || [];
+const compatibility = JSON.parse(fs.readFileSync(compatibilityPath, "utf8")).skills || [];
+const compatibilityById = new Map(compatibility.map((skill) => [skill.id, skill]));
 
 assert.strictEqual(
   marketplace.name,
@@ -64,10 +67,27 @@ assert.strictEqual(pluginManifest.skills, "./skills/");
 const pluginSkillsPath = path.join(pluginRoot, "skills");
 assert.ok(fs.existsSync(pluginSkillsPath), "Codex plugin skills path must exist");
 assert.ok(fs.statSync(pluginSkillsPath).isDirectory(), "Codex plugin skills path must be a directory");
+for (const skill of compatibility) {
+  const copiedPath = path.join(pluginSkillsPath, ...skill.id.split("/"));
+  if (skill.targets.codex === "supported") {
+    assert.ok(fs.existsSync(copiedPath), `Codex root plugin should include supported skill ${skill.id}`);
+  } else {
+    assert.ok(!fs.existsSync(copiedPath), `Codex root plugin should exclude blocked skill ${skill.id}`);
+  }
+}
 
 for (const bundle of editorialBundles) {
   const bundlePluginName = `antigravity-bundle-${bundle.id}`;
   const bundleEntry = marketplace.plugins.find((plugin) => plugin.name === bundlePluginName);
+  const codexSupported = bundle.skills.every(
+    (skill) => compatibilityById.get(skill.id)?.targets?.codex === "supported",
+  );
+
+  if (!codexSupported) {
+    assert.ok(!bundleEntry, `marketplace.json must exclude incompatible bundle plugin ${bundlePluginName}`);
+    continue;
+  }
+
   assert.ok(bundleEntry, `marketplace.json must include bundle plugin ${bundlePluginName}`);
   assert.deepStrictEqual(
     bundleEntry.source,

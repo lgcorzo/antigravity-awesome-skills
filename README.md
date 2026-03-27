@@ -211,6 +211,8 @@ If you use Claude Code and prefer the plugin marketplace flow, this repository n
 
 This installs the same repository-backed skill library through Claude Code's plugin marketplace entrypoint.
 
+The Claude plugin is a plugin-safe filtered distribution of the repo. Skills that still contain host-specific paths or undeclared setup remain in the repository, but are excluded from the plugin until they are hardened.
+
 ### Option C: Codex plugin marketplace metadata
 
 If you use Codex and prefer a marketplace-style plugin source instead of copying skills into `.codex/skills/`, this repository now ships:
@@ -221,6 +223,8 @@ If you use Codex and prefer a marketplace-style plugin source instead of copying
 The Codex plugin points at the same curated `skills/` tree through a repo-local plugin entry, so the library can be exposed as an installable Codex plugin source without duplicating the catalog.
 
 Bundle users can also install focused Claude Code and Codex bundle plugins from the generated marketplace metadata instead of taking the full library at once.
+
+Like the Claude distribution, the Codex plugin only exposes plugin-safe skills. Repo-only skills are still available through clone or installer flows while they are being hardened for marketplace use.
 
 ## Choose Your Tool
 

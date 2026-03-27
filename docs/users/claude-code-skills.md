@@ -31,6 +31,8 @@ npx antigravity-awesome-skills --claude
 /plugin install antigravity-awesome-skills
 ```
 
+The Claude marketplace plugin is a plugin-safe filtered distribution of the repo. Skills that still require portability hardening or explicit setup metadata remain available in the repository, but are excluded from the plugin until they are ready.
+
 ### Verify the install
 
 ```bash

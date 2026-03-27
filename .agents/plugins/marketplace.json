@@ -447,18 +447,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Maintainer & OSS"
-    },
-    {
-      "name": "antigravity-bundle-skill-author",
-      "source": {
-        "source": "local",
-        "path": "./plugins/antigravity-bundle-skill-author"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Maintainer & OSS"
     }
   ]
 }

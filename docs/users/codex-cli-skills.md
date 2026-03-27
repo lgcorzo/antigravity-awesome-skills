@@ -29,6 +29,8 @@ If you prefer a plugin-style Codex integration, this repository also ships repo-
 
 It also generates bundle-specific Codex plugins so you can install a curated pack such as `Essentials` or `Web Wizard` as a marketplace plugin instead of loading the full library.
 
+Those Codex plugins are plugin-safe filtered distributions. Skills that still depend on host-specific paths or undeclared setup stay in the repository, but are not published into the Codex plugin until they are hardened.
+
 ### Verify the install
 
 ```bash

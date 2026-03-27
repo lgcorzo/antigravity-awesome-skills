@@ -1,7 +1,7 @@
 {
   "name": "antigravity-awesome-skills",
   "version": "8.10.0",
-  "description": "Repository-backed Codex plugin for the Antigravity Awesome Skills library.",
+  "description": "Plugin-safe Codex plugin for the Antigravity Awesome Skills library.",
   "author": {
     "name": "sickn33 and contributors",
     "url": "https://github.com/sickn33/antigravity-awesome-skills"
@@ -14,13 +14,13 @@
     "skills",
     "agentic-skills",
     "developer-tools",
-    "productivity"
+    "plugin-safe"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Antigravity Awesome Skills",
-    "shortDescription": "1,328+ reusable skills for coding, security, product, and ops workflows.",
-    "longDescription": "Install the Antigravity Awesome Skills catalog as a Codex plugin and expose the repository's curated skills library through a single marketplace entry.",
+    "shortDescription": "1,299 plugin-safe skills for coding, security, product, and ops workflows.",
+    "longDescription": "Install a plugin-safe Codex distribution of Antigravity Awesome Skills. Skills that still need hardening or target-specific setup remain available in the repo but are excluded from this plugin.",
     "developerName": "sickn33 and contributors",
     "category": "Productivity",
     "capabilities": [
