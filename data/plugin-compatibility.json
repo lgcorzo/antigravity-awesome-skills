@@ -23495,6 +23495,25 @@
       "runtime_files": []
     },
     {
+      "id": "squirrel",
+      "path": "skills/squirrel",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "sred-project-organizer",
       "path": "skills/sred-project-organizer",
       "targets": {
@@ -27534,10 +27553,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1440,
+    "total_skills": 1441,
     "supported": {
-      "codex": 1409,
-      "claude": 1424
+      "codex": 1410,
+      "claude": 1425
     },
     "blocked": {
       "codex": 31,

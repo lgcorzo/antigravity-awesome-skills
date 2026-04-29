@@ -26991,6 +26991,28 @@
     }
   },
   {
+    "id": "squirrel",
+    "path": "skills/squirrel",
+    "category": "development",
+    "name": "squirrel",
+    "description": "Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "sred-project-organizer",
     "path": "skills/sred-project-organizer",
     "category": "project-management",

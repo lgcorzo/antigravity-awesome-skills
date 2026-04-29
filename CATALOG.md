@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1440
+Total skills: 1441
 
 ## architecture (95)
 
@@ -1036,7 +1036,7 @@ Total skills: 1440
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (131)
+## infrastructure (132)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1159,6 +1159,7 @@ Total skills: 1440
 | `skill-installer` | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. | skill-management, deployment, validation, installation | skill-management, deployment, validation, installation, skill, installer, instala, valida, registra, verifica, novas, skills |
 | `slo-implementation` | Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets. | slo | slo, framework, defining, implementing, level, indicators, slis, objectives, slos, error, budgets |
 | `sql-pro` | Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid... | sql | sql, pro, cloud, native, databases, oltp, olap, optimization, query, techniques, performance, tuning |
+| `squirrel` | Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipe... | development, testing, planning, code-review, documentation, ci-cd | development, testing, planning, code-review, documentation, ci-cd, squirrel, full, cycle, ai, coding, skill |
 | `temporal-python-pro` | Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testin... | temporal, python | temporal, python, pro, orchestration, sdk, implements, durable, saga, distributed, transactions, covers, async |
 | `terraform-aws-modules` | Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure. | terraform, aws, modules | terraform, aws, modules, module, creation, reusable, state, hcl, building, reviewing, infrastructure |
 | `terraform-infrastructure` | Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale. | terraform, infrastructure | terraform, infrastructure, code, provisioning, cloud, resources, creating, reusable, modules, managing, scale |
