@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1436
+Total skills: 1443
 
 ## architecture (95)
 
@@ -190,7 +190,7 @@ Total skills: 1436
 | `whatsapp-automation` | Automate WhatsApp Business tasks via Rube MCP (Composio): send messages, manage templates, upload media, and handle contacts. Always search tools first for c... | whatsapp | whatsapp, automation, automate, business, tasks, via, rube, mcp, composio, send, messages, upload |
 | `wordpress-centric-high-seo-optimized-blogwriting-skill` | Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema. | writing, blog, seo, content, wordpress | writing, blog, seo, content, wordpress, centric, high, optimized, blogwriting, skill, long, form |
 
-## data-ai (275)
+## data-ai (277)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -286,8 +286,10 @@ Total skills: 1436
 | `beautiful-prose` | A hard-edged writing style contract for timeless, forceful English prose without modern AI tics. Use when users ask for prose or rewrites that must be clean,... | beautiful, prose | beautiful, prose, hard, edged, writing, style, contract, timeless, forceful, english, without, ai |
 | `behavioral-modes` | AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. | behavioral, modes | behavioral, modes, ai, operational, brainstorm, debug, review, teach, ship, orchestrate, adapt, behavior |
 | `biopython` | Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, ... | biopython | biopython, set, freely, available, python, biological, computation, provides, functionality, sequence, manipulation, file |
+| `brooks-lint` | AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks. | code-review, architecture, software-design, refactoring, claude-code | code-review, architecture, software-design, refactoring, claude-code, brooks, lint, ai, code, reviewer, grounded, classic |
 | `browser-automation` | Browser automation powers web testing, scraping, and AI agent interactions. The difference between a flaky script and a reliable system comes down to underst... | browser | browser, automation, powers, web, testing, scraping, ai, agent, interactions, difference, between, flaky |
 | `business-analyst` | Master modern business analysis with AI-powered analytics, real-time dashboards, and data-driven insights. Build comprehensive KPI frameworks, predictive mod... | business, analyst | business, analyst, analysis, ai, powered, analytics, real, time, dashboards, data, driven, insights |
+| `buywhere-product-catalog` | Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents. | buywhere, ecommerce, shopping, mcp, api, product-catalog | buywhere, ecommerce, shopping, mcp, api, product-catalog, product, catalog, surfaces, add, search, price |
 | `cc-skill-backend-patterns` | Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. | cc, skill, backend | cc, skill, backend, architecture, api, database, optimization, server, side, node, js, express |
 | `cc-skill-clickhouse-io` | ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. | cc, skill, clickhouse, io | cc, skill, clickhouse, io, database, query, optimization, analytics, data, engineering, high, performance |
 | `cirq` | Cirq is Google Quantum AI's open-source framework for designing, simulating, and running quantum circuits on quantum computers and simulators. | cirq | cirq, google, quantum, ai, open, source, framework, designing, simulating, running, circuits, computers |
@@ -649,7 +651,6 @@ Total skills: 1436
 | `senior-frontend` | Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js performance,... | senior, frontend | senior, frontend, development, skill, react, next, js, typescript, tailwind, css, applications, building |
 | `shopify-apps` | Expert patterns for Shopify app development including Remix/React Router apps, embedded apps with App Bridge, webhook handling, GraphQL Admin API, Polaris co... | shopify, apps | shopify, apps, app, development, including, remix, react, router, embedded, bridge, webhook, handling |
 | `shopify-development` | Build Shopify apps, extensions, themes using GraphQL Admin API, Shopify CLI, Polaris UI, and Liquid. | shopify | shopify, development, apps, extensions, themes, graphql, admin, api, cli, polaris, ui, liquid |
-| `skills/x402-express-wrapper` | Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios q... | x402, defi, monetization, express, mcp | x402, defi, monetization, express, mcp, wrapper, oficial, de, m2mcent, node, js, para |
 | `slack-bot-builder` | Build Slack apps using the Bolt framework across Python, JavaScript, and Java. Covers Block Kit for rich UIs, interactive components, slash commands, event h... | slack, bot, builder | slack, bot, builder, apps, bolt, framework, python, javascript, java, covers, block, kit |
 | `sred-work-summary` | Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects. | sred, work, summary | sred, work, summary, go, back, through, previous, year, notion, doc, groups, relevant |
 | `statsmodels` | Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistic... | statsmodels | statsmodels, python, premier, library, statistical, modeling, providing, estimation, inference, diagnostics, wide, range |
@@ -679,10 +680,11 @@ Total skills: 1436
 | `viral-generator-builder` | Expert in building shareable generator tools that go viral - name generators, quiz makers, avatar creators, personality tests, and calculator tools. Covers t... | viral, generator, builder | viral, generator, builder, building, shareable, go, name, generators, quiz, makers, avatar, creators |
 | `vscode-extension-guide-en` | Guide for VS Code extension development from scaffolding to Marketplace publication | vscode, extension, ide, typescript, marketplace | vscode, extension, ide, typescript, marketplace, en, vs, code, development, scaffolding, publication |
 | `webapp-testing` | To test local web applications, write native Python Playwright scripts. | webapp | webapp, testing, test, local, web, applications, write, native, python, playwright, scripts |
+| `x402-express-wrapper` | Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios q... | x402, defi, monetization, express, mcp | x402, defi, monetization, express, mcp, wrapper, oficial, de, m2mcent, node, js, para |
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (347)
+## general (348)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -819,6 +821,7 @@ Total skills: 1436
 | `geoffrey-hinton` | Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks. | persona, deep-learning, ai-safety, neural-networks | persona, deep-learning, ai-safety, neural-networks, geoffrey, hinton, agente, que, simula, godfather, deep, learning |
 | `gh-review-requests` | Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to "find PRs I need... | gh, requests | gh, requests, review, fetch, unread, github, notifications, open, prs, where, requested, specified |
 | `git-advanced-workflows` | Master advanced Git techniques to maintain clean history, collaborate effectively, and recover from any situation with confidence. | git, advanced | git, advanced, techniques, maintain, clean, history, collaborate, effectively, recover, any, situation, confidence |
+| `git-pr-review` | Generate a concise and structured PR description from commit history with minimal token usage | git, pr | git, pr, review, generate, concise, structured, description, commit, history, minimal, token, usage |
 | `git-pr-workflows-onboard` | You are an **expert onboarding specialist and knowledge transfer architect** with deep experience in remote-first organizations, technical team integration, ... | git, pr, onboard | git, pr, onboard, onboarding, knowledge, transfer, architect, deep, experience, remote, first, organizations |
 | `git-pr-workflows-pr-enhance` | You are a PR optimization expert specializing in creating high-quality pull requests that facilitate efficient code reviews. Generate comprehensive PR descri... | git, pr, enhance | git, pr, enhance, optimization, specializing, creating, high, quality, pull, requests, facilitate, efficient |
 | `git-pushing` | Stage all changes, create a conventional commit, and push to the remote branch. Use when explicitly asks to push changes ("push this", "commit and push"), me... | git, pushing | git, pushing, stage, all, changes, conventional, commit, push, remote, branch, explicitly, asks |
@@ -1034,7 +1037,7 @@ Total skills: 1436
 | `youtube-summarizer` | Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks | video, summarization, transcription, youtube, content-analysis | video, summarization, transcription, youtube, content-analysis, summarizer, extract, transcripts, videos, generate, detailed, summaries |
 | `zipai-optimizer` | Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware. | zipai, optimizer | zipai, optimizer, adaptive, token, intelligent, filtering, surgical, output, ambiguity, first, context, window |
 
-## infrastructure (130)
+## infrastructure (132)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1121,6 +1124,7 @@ Total skills: 1436
 | `k6-load-testing` | Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic load scenarios, analyze results, and integrate with CI/CD. | k6, load-testing, performance, api-testing, ci-cd | k6, load-testing, performance, api-testing, ci-cd, load, testing, skill, api, browser, scalability, write |
 | `kubernetes-architect` | Expert Kubernetes architect specializing in cloud-native infrastructure, advanced GitOps workflows (ArgoCD/Flux), and enterprise container orchestration. | kubernetes | kubernetes, architect, specializing, cloud, native, infrastructure, gitops, argocd, flux, enterprise, container, orchestration |
 | `kubernetes-deployment` | Kubernetes deployment workflow for container orchestration, Helm charts, service mesh, and production-ready K8s configurations. | kubernetes, deployment | kubernetes, deployment, container, orchestration, helm, charts, mesh, k8s, configurations |
+| `kubestellar-console` | Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills | kubernetes, multi-cluster, mcp, dashboard, cncf, devops, observability | kubernetes, multi-cluster, mcp, dashboard, cncf, devops, observability, kubestellar, console, multi, cluster, ai |
 | `lambdatest-agent-skills` | Production-grade test automation skills for 46 frameworks across E2E, unit, mobile, BDD, visual, and cloud testing in 15+ languages. | testing, test-automation, e2e, unit-testing, mobile-testing, bdd, selenium, playwright, cypress, jest, pytest, appium, lambdatest | testing, test-automation, e2e, unit-testing, mobile-testing, bdd, selenium, playwright, cypress, jest, pytest, appium |
 | `langfuse` | Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, Lla... | langfuse | langfuse, open, source, llm, observability, platform, covers, tracing, prompt, evaluation, datasets, integration |
 | `lightning-channel-factories` | Technical reference on Lightning Network channel factories, multi-party channels, LSP architectures, and Bitcoin Layer 2 scaling without soft forks. Covers D... | lightning, channel, factories | lightning, channel, factories, technical, reference, network, multi, party, channels, lsp, architectures, bitcoin |
@@ -1156,6 +1160,7 @@ Total skills: 1436
 | `skill-installer` | Instala, valida, registra e verifica novas skills no ecossistema. 10 checks de seguranca, copia, registro no orchestrator e verificacao pos-instalacao. | skill-management, deployment, validation, installation | skill-management, deployment, validation, installation, skill, installer, instala, valida, registra, verifica, novas, skills |
 | `slo-implementation` | Framework for defining and implementing Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets. | slo | slo, framework, defining, implementing, level, indicators, slis, objectives, slos, error, budgets |
 | `sql-pro` | Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques. Expert in performance tuning, data modeling, and hybrid... | sql | sql, pro, cloud, native, databases, oltp, olap, optimization, query, techniques, performance, tuning |
+| `squirrel` | Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipe... | development, testing, planning, code-review, documentation, ci-cd | development, testing, planning, code-review, documentation, ci-cd, squirrel, full, cycle, ai, coding, skill |
 | `temporal-python-pro` | Master Temporal workflow orchestration with Python SDK. Implements durable workflows, saga patterns, and distributed transactions. Covers async/await, testin... | temporal, python | temporal, python, pro, orchestration, sdk, implements, durable, saga, distributed, transactions, covers, async |
 | `terraform-aws-modules` | Terraform module creation for AWS — reusable modules, state management, and HCL best practices. Use when building or reviewing Terraform AWS infrastructure. | terraform, aws, modules | terraform, aws, modules, module, creation, reusable, state, hcl, building, reviewing, infrastructure |
 | `terraform-infrastructure` | Terraform infrastructure as code workflow for provisioning cloud resources, creating reusable modules, and managing infrastructure at scale. | terraform, infrastructure | terraform, infrastructure, code, provisioning, cloud, resources, creating, reusable, modules, managing, scale |
@@ -1169,7 +1174,7 @@ Total skills: 1436
 | `workflow-automation` | Workflow automation is the infrastructure that makes AI agents reliable. Without durable execution, a network hiccup during a 10-step payment flow means lost... |  | automation, infrastructure, makes, ai, agents, reliable, without, durable, execution, network, hiccup, during |
 | `x-twitter-scraper` | X (Twitter) data platform skill — tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction too... | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks | twitter, x-api, scraping, mcp, social-media, data-extraction, giveaway, monitoring, webhooks, scraper, data, platform |
 
-## security (171)
+## security (173)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -1257,6 +1262,7 @@ Total skills: 1436
 | `linux-privilege-escalation` | Execute systematic privilege escalation assessments on Linux systems to identify and exploit misconfigurations, vulnerable services, and security weaknesses ... | linux, privilege, escalation | linux, privilege, escalation, execute, systematic, assessments, identify, exploit, misconfigurations, vulnerable, security, weaknesses |
 | `linux-shell-scripting` | Provide production-ready shell script templates for common Linux system administration tasks including backups, monitoring, user management, log analysis, an... | linux, shell, scripting | linux, shell, scripting, provide, script, common, administration, tasks, including, backups, monitoring, user |
 | `local-llm-expert` | Master local LLM inference, model selection, VRAM optimization, and local deployment using Ollama, llama.cpp, vLLM, and LM Studio. Expert in quantization for... | local, llm | local, llm, inference, model, selection, vram, optimization, deployment, ollama, llama, cpp, vllm |
+| `logic-lens` | AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks bey... | code-review, logic-analysis, debugging, security-review, claude-code | code-review, logic-analysis, debugging, security-review, claude-code, logic, lens, ai, powered, claude, code, skill |
 | `loki-mode` | Version 2.35.0 \| PRD to Production \| Zero Human Intervention > Research-enhanced: OpenAI SDK, DeepMind, Anthropic, AWS Bedrock, Agent SDK, HN Production (2025) | loki, mode | loki, mode, version, 35, prd, zero, human, intervention, research, enhanced, openai, sdk |
 | `m365-agents-dotnet` | Microsoft 365 Agents SDK for .NET. Build multichannel agents for Teams/M365/Copilot Studio with ASP.NET Core hosting, AgentApplication routing, and MSAL-base... | m365, agents, dotnet | m365, agents, dotnet, microsoft, 365, sdk, net, multichannel, teams, copilot, studio, asp |
 | `m365-agents-py` | Microsoft 365 Agents SDK for Python. Build multichannel agents for Teams/M365/Copilot Studio with aiohttp hosting, AgentApplication routing, streaming respon... | m365, agents, py | m365, agents, py, microsoft, 365, sdk, python, multichannel, teams, copilot, studio, aiohttp |
@@ -1313,6 +1319,7 @@ Total skills: 1436
 | `seo-technical` | Audit technical SEO across crawlability, indexability, security, URLs, mobile, Core Web Vitals, structured data, JavaScript rendering, and related platform s... | seo, technical | seo, technical, audit, crawlability, indexability, security, urls, mobile, core, web, vitals, structured |
 | `service-mesh-expert` | Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns. Masters traffic management, security policies, observabil... | service, mesh | service, mesh, architect, specializing, istio, linkerd, cloud, native, networking, masters, traffic, security |
 | `simplify-code` | Review a diff for clarity and safe simplifications, then optionally apply low-risk fixes. | simplify, code | simplify, code, review, diff, clarity, safe, simplifications, then, optionally, apply, low, risk |
+| `skill-audit` | Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust. | security, audit, pre-install, malicious-detection, supply-chain | security, audit, pre-install, malicious-detection, supply-chain, skill, pre, install, scanner, ai, agent, skills |
 | `skill-creator` | To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template applicati... | automation, scaffolding, skill-creation, meta-skill | automation, scaffolding, skill-creation, meta-skill, skill, creator, new, cli, skills, following, anthropic, official |
 | `skill-scanner` | Scan agent skills for security issues before adoption. Detects prompt injection, malicious code, excessive permissions, secret exposure, and supply chain risks. | skill, scanner | skill, scanner, scan, agent, skills, security, issues, before, adoption, detects, prompt, injection |
 | `smtp-penetration-testing` | Conduct comprehensive security assessments of SMTP (Simple Mail Transfer Protocol) servers to identify vulnerabilities including open relays, user enumeratio... | smtp, penetration | smtp, penetration, testing, conduct, security, assessments, simple, mail, transfer, protocol, servers, identify |
